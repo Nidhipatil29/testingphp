@@ -14,6 +14,6 @@ pipeline {
         
         /*stage('deploy') {
             steps {
-              sh 'docker run --name mytestcontainer -itd -p 5000:5000 myprojectimage'
+              sh 'docker run --name mytestcontainer -itd -p 80:80 myphpproject'
             }
         }*/
