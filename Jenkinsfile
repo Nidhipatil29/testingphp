@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-               git branch: 'main', url: 'https://github.com/Nidhipatil29/testingphp.git'
+               git url: 'https://github.com/Nidhipatil29/testingphp.git'
                sh 'ls -a'
                sh 'docker build -t myphpproject .'
             }
