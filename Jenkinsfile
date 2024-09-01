@@ -23,11 +23,11 @@ pipeline {
             }
         }
 
-        stage('stop') {
+       /* stage('stop') {
             steps {
               sh 'docker stop mytestcontainer'
             }
-        }
+        }*/
     }
 }
 
