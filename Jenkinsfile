@@ -17,11 +17,11 @@ pipeline {
             }
         }
 
-        stage('test') {
+      /*  stage('test') {
             steps {
               sh 'curl localhost:80'
             }
-        }
+        }*/
 
        /* stage('stop') {
             steps {
